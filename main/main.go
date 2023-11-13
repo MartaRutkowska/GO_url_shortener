@@ -8,10 +8,10 @@ import (
 
 func main() {
 
-	var userSelectedOption = displayOptions()
+	var userUrl = displayOptions()
 
-	if userSelectedOption != "" {
-		fmt.Printf("userUrl: %s", userSelectedOption)
+	if userUrl != "" {
+		fmt.Printf("userUrl: %s", userUrl)
 	}
 
 	return
